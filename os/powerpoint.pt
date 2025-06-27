@@ -1,0 +1,10 @@
+print("QUANTA")
+while True:
+    cmd = input("Enter command: ")
+    if cmd == "exit":
+        print("Exiting...")
+        break
+    elif cmd == "":
+        print("Please enter a command.")
+else:
+    print(f"Unknown command: {cmd}")
